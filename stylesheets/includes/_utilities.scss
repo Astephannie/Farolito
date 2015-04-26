@@ -41,19 +41,24 @@ body{
 } 
 .text-tomato{
 	color:tomato !important;
-	letter-spacing: 0.05em;
 }
-
+h1{
+  text-align: center;
+  font-size: 37px;
+  letter-spacing:0;
+  line-height: 1;
+  font-family: NeutraText-DemiAlt !important;
+}  
 h2{
   text-align: center;
-	font-size: 32px;
-	letter-spacing:0.06em;
+	font-size: 33px;
+	letter-spacing:0;
   line-height: 1;
-  font-family: NeutraText-LightAlt !important;
+  font-family: NeutraText-DemiAlt !important;
 }
 h3{
-  letter-spacing: 0.06em;
-  line-height: 1.5;
+  letter-spacing: 0.03em;
+  line-height: 1.4;
   font-size: 27px;
 }
 h4{
@@ -69,6 +74,14 @@ h5{
   margin-bottom: 2%;
   margin-top: 0;
 }
+
+// FONT
+
+.neutra{
+  font-family: NeutraText-DemiAlt !important;
+}
+
+
 // BACKGROUND COLOR
 
 .bg-gray{ 
@@ -162,7 +175,7 @@ h5{
 }
 .btn-transparent{
   background-color: transparent;
-  border: 4px solid white !important;
+  border: 3px solid white !important;
   color:white;
 }
 .btn-tomato-white{ 
@@ -175,6 +188,11 @@ h5{
 
 .border-radius{
 	border-radius: 50%;
+}
+
+.border-bottom{
+  padding-bottom: 4%;
+  border-bottom: 2px dashed white;
 }
 
 // FONTS:
@@ -193,6 +211,14 @@ h5{
   src: url(../fonts/header-fonts/NeutraText-LightAlt.otf);
 }
 
+@font-face {
+  font-family: NeutraText-BoldAlt;
+  src: url(../fonts/header-fonts/NeutraText-BoldAlt.otf);
+}
+@font-face {
+  font-family: NeutraText-DemiAlt;
+  src: url(../fonts/header-fonts/NeutraText-DemiAlt.otf);
+}
 
 
 // POSITION
